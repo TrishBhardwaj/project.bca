@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: rgb(57, 140, 207);
+    padding: 20px 40px;
+}
+
+nav h1 {
+    display: inline;
+    padding: 10px 20px;
+    border: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMTX3aGvmNzg6dNVa-wGeMMQFhGA1FV2qbg&s') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+/* Contact Form Styles */
+#contact {
+    padding: 20px;
+    background: #1a0303;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #9e5656;
+    border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Hide the nav links by default */
+        flex-direction: column;
+        
